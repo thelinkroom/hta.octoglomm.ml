@@ -1,8 +1,29 @@
 <html>
 <head>
 <title>yo</title>
+  <style>
+    #wrapper {
+padding:10px;
+width: 1033px;
+margin: 0 auto;
+display:block;
+word-wrap: break-word;
+border-left-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+background-color:white;
+opacity:0.5;
+}
+  </style>
+  <script>
+      function cleanUp() {
+  for (var i = 0; i < document.getElementsByClassName('long').length; i++) {
+    document.getElementsByClassName('long')[i].innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  }
+  }
+  </script>
 </head>
-  <body style="color:black;font-family:Arial;"><center><h1>HTA Depot</h1><h3>snitches get stitches</h3><br><br>
+  <body style="color:black;font-family:Arial;"><div id="wrapper"><center><h1>HTA Depot</h1><h3>snitches get stitches</h3><br>
     <a href="http://bit.ly/bouncehta">BounceHTA</a> <space class="long" href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</space>
     <a href="http://bit.ly/bouncehta">PastaHTA</a> <space class="long" href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</space>
     <a href="http://bit.ly/2BI25LV">OldmanHTA</a> <space class="long" href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</space>
@@ -16,3 +37,4 @@
     <a href="https://thelinkroom.github.io/like_counter_windowed.hta">LikeCounterWindowedHTA</a> <space class="long" href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</space>
     <a href="https://thelinkroom.github.io/projects/zach/seconds.hta">SecondsHTA</a> <space class="long" href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</space>
     
+    </center></div></body></html>
