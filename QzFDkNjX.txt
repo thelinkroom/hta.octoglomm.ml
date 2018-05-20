@@ -1,8 +1,11 @@
 {
 "packages":[
 { "name":"BounceHTA", "link":"http://bit.ly/bouncehta", "imglink":"https://i.imgur.com/JoNjqlx.gif"},
-{ "name":"PastaHTA", "link":"http://bit.ly/pastahta", "imglink":"https://i.imgur.com/JoNjqlx.gif"}
-
+{ "name":"PastaHTA", "link":"http://bit.ly/pastahta", "imglink":"https://i.imgur.com/F7xXNc4.png"},
+{ "name":"OldmanHTA", "link":"http://bit.ly/2BI25LV", "imglink":"https://s-i.huffpost.com/gen/1781110/images/o-GRUMPY-OLD-MEN-facebook.jpg"},
+{ "name":"HydraHTA", "link":"http://thelinkroom.github.io/hydra.hta", "imglink":"https://i.imgur.com/azhteRz.png"},
+{ "name":"GusHTA", "link":"http://bit.ly/gushta", "imglink":"https://i.imgur.com/OxM1m3l.gif"},
+{ "name":"JusboxHTA", "link":"https://thelinkroom.github.io/jusbox.hta", "imglink":"https://i.imgur.com/hfhFoPQ.gif"}
 ]
 
 
